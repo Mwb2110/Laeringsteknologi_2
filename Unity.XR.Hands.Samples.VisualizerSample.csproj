@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D9A15963-3BE9-7629-00C8-8C5F021A8053}</ProjectGuid>
+    <ProjectGuid>{968EEF0E-9DDC-5DC5-401E-086E1F812C83}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Hands.Samples.VisualizerSample</AssemblyName>
@@ -61,9 +61,9 @@
     <Analyzer Include="C:\Users\ao-gf\Documents\Unity Download\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Samples\XR Hands\1.5.0\HandVisualizer\Scripts\JointVisualizer.cs" />
     <Compile Include="Assets\Samples\XR Hands\1.5.0\HandVisualizer\Scripts\HandProcessor.cs" />
     <Compile Include="Assets\Samples\XR Hands\1.5.0\HandVisualizer\Scripts\HandVisualizer.cs" />
+    <Compile Include="Assets\Samples\XR Hands\1.5.0\HandVisualizer\Scripts\JointVisualizer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Samples\XR Hands\1.5.0\HandVisualizer\Unity.XR.Hands.Samples.VisualizerSample.asmdef" />
@@ -551,6 +551,22 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\unityplastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\log4netPlastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">

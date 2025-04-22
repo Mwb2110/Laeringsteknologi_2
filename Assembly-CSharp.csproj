@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0D51F60F-05AF-C816-B7AE-6E1A7749781E}</ProjectGuid>
+    <ProjectGuid>{49BF55C7-5EBC-09A2-73AF-F352014798D7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,20 +62,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\VRTemplateAssets\Scripts\PermissionsManager.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\DestroyObject.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoPlayerRenderTexture.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Rotator.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRKnob.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BooleanToggleVisualsController.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\RayAttachModifier.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\HandSubsystemManager.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\DestroyObject.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1157,6 +1157,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Multiplayer.Center.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1352,23 +1356,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.csproj">
-      <Project>{54342D09-E1D3-B05D-AEC3-5DEBB7DC4C9E}</Project>
+      <Project>{053F2C19-58DD-C1CE-D87E-42FE61554447}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.Hands</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj">
-      <Project>{A8E5072E-D583-2697-9075-141A094841D3}</Project>
+      <Project>{D5AF1FCF-1D57-1533-95A5-3921A91A3680}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.Hands.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{DF86C456-8463-3F9A-283B-BBBC14C8C323}</Project>
+      <Project>{8B13AB75-0AE9-FD97-858E-499B525BFC41}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj">
-      <Project>{D9A15963-3BE9-7629-00C8-8C5F021A8053}</Project>
+      <Project>{968EEF0E-9DDC-5DC5-401E-086E1F812C83}</Project>
       <Name>Unity.XR.Hands.Samples.VisualizerSample</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
-      <Project>{A0ABB8B8-8E98-21A6-CAD3-860E703D9CF3}</Project>
+      <Project>{F33C8F85-9153-3478-D791-63DB0AFEA235}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
   </ItemGroup>

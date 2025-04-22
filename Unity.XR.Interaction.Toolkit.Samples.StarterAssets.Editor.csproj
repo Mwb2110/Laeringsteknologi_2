@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A0ABB8B8-8E98-21A6-CAD3-860E703D9CF3}</ProjectGuid>
+    <ProjectGuid>{F33C8F85-9153-3478-D791-63DB0AFEA235}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</AssemblyName>
@@ -557,6 +557,22 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\unityplastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\log4netPlastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
